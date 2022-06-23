@@ -369,7 +369,6 @@ class SQLServerConnectionManager(SQLConnectionManager):
 
             con_str_display = ";".join(con_str)
 
-            print(con_str_display)
             logger.debug(f"Using connection string: {con_str_display}")
 
             attrs_before = get_pyodbc_attrs_before(credentials)
